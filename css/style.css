@@ -1,11 +1,15 @@
 body {
     width: 80%;
     margin: auto;
+    background-color: #9999ff;
+
 }
 
 nav {
     border: 1px solid black;
     margin: 3em 0;
+    background-color: #efff99;
+    box-shadow: 20px 20px 10px #656565;
 }
 
 ul li {
@@ -18,13 +22,23 @@ aside {
     height: 10em;
     width: 25%;
     display: inline-block;
-    margin-left: 9em;
+    margin-left: 8em;
+    background-color: #99ffc9;
+    box-shadow: 20px 20px 10px #656565;
+    vertical-align: top;
 
 }
 
 main {
     border: 1px solid black;
-    height: 10em;
+    height: auto;
     width: 65%;
     display: inline-block;
+    background-color: #ff99d7;
+    box-shadow: 20px 20px 10px #656565;
+}
+article{
+    width: 30%;
+    display: inline-block;
+    margin: 1em 0;
 }
